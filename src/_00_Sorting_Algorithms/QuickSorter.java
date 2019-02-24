@@ -21,15 +21,24 @@ public class QuickSorter extends Sorter {
 	private void quickSort(int[] array, int low, int high, SortingVisualizer display) {
 		//2. create two integer variables called i and j and set them equal
 		//   to low and high respectively.
+		int i=low;
+		int j=high;
        
         //3. create an integer called pivot and set it equal to the element
         //   in the array that is the halfway point between low and high
-
+			int pivot=(low+high)/2;
         //4. make a while loop that goes while i is less than or equal to j
+        while(i<=j) {
+       
+        
         
         	//5. make a while loop that increments i while 
         	//   the array element at i is less than pivot
-            
+             	while(array[i]<pivot) {
+        		i+=1;
+        	}
+        }
+        
             //6. make a while loop that decrements j while 
         	//   the array element at j is greater than pivot
             
