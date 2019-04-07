@@ -42,9 +42,9 @@ class _04_SearchTest {
 	
 	@Test*/
 	public void testExponentialSearch() {
-		int[] array= {1,2,3,6,7,7,7,7,7,7,7,9,50,70,80,90,100,100,110,111,200,203,204,205};
+		int[] array= {1,2,3,9,50,70,80,90,100,110,111,200,203,204,205};
 		int value = 111;
-		assertEquals(19, _03_ExponentialSearch.exponentialSearch(array, value));
+		assertEquals(10, _03_ExponentialSearch.exponentialSearch(array, value));
 		//4. use the assertEquals method to test your exponential search method.
 		//   remember that the array must be sorted
 	}
